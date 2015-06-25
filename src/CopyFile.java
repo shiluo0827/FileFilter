@@ -20,9 +20,9 @@ public class CopyFile {
 					bytesum += byteread; // 字节数 文件大小
 					fs.write(buffer, 0, byteread);
 				}
-				System.out.println("复制的原始文件："+oldPath);
-				System.out.println("复制的目标文件："+newPath);
-				System.out.println("复制的字节数："+bytesum+"字节");
+				//System.out.println("复制的原始文件："+oldPath);
+				//System.out.println("复制的目标文件："+newPath);
+				//System.out.println("复制的字节数："+bytesum+"字节");
 				inStream.close();
 				fs.close();
 				objFile.setLastModified(oldFile.lastModified());
